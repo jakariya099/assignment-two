@@ -176,8 +176,7 @@
   border-radius: 40px;
   background: rgba(53, 17, 101, 0.4);
   padding: 40px;
-  width: 380px;
-  height: 520px;
+  width:  100%;
  }
 .second{
   grid-column: span 2;
@@ -317,4 +316,70 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
+}
+
+
+
+@media screen and (max-width:576px){
+  #logo-navbar .nav{
+  flex-direction: column;
+  gap: 20px;
+  }
+  #section-four .cards{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  }
+  #section-five{
+    padding: 0px 0px 0px 0px;
+  }
+  .card{
+    display: grid;
+    margin: 0px auto 0px auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .first, .second, .third, .fourr, .five{
+    width: 300px;
+    height: auto;
+  } 
+  .first{
+    grid-row: span 1;
+  }
+  .five{
+    margin-right: 25px;
+  }
+  #section-six .f{
+    flex-direction: column;
+    gap: 20px;
+  }
+  #section-six .f .a, #section-six .f .b, #section-six .f .c{
+    margin: 0px auto 0px auto;
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+  } 
+  iframe{
+    width: 280px;
+    height: auto;
+  }
+  #section-six .host{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px 20px 10px;
+    margin: 0px auto 0px auto;
+    width: 300px;
+    height: auto;
+  }
+  #footer .footer-ul{
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+  }
+  #footer{
+    width: 400px;
+  }
+
 }
