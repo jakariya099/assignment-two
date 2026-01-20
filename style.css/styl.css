@@ -57,11 +57,13 @@
   font-size: 20px;
   cursor: pointer;
 }
-/* .button-nav:hover{
+.button-nav:hover{
   opacity: 0.8;
   transition: 0.3s;
-} */
-
+}
+.button{
+  
+}
 
 
 #section-second{
@@ -316,6 +318,11 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
+}
+#footer p{
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
 }
 
 
