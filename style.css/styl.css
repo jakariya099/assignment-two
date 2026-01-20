@@ -51,18 +51,25 @@
   border-radius: 10000px;
   background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   cursor: pointer;
+  font-style: semi-bold;
 }
 .button-nav:hover{
   opacity: 0.8;
   transition: 0.3s;
 }
 .button{
-  
+  background-color: rgba(26, 11, 46, 1);
+  padding: 10px 20px;
+  border-radius: 10000px;
+  border: 2px solid rgb(127, 184, 127);
+  font-weight: 500;
+  font-size: 20px;
+  color: #00FF88;
 }
 
 
