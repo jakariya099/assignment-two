@@ -59,8 +59,12 @@
   font-style: semi-bold;
 }
 .button-nav:hover{
-  opacity: 0.8;
-  transition: 0.3s;
+  transform: scale(1.05);
+  transition: 2s;
+}
+.button:hover{
+  transform: scale(1.05);
+  transition: 2s;
 }
 .button{
   background-color: rgba(26, 11, 46, 1);
@@ -92,6 +96,10 @@
   margin-top: -250px;
   width: 200px;
   height: 200px;
+}
+#section-second .img-two:hover{
+  transform: scale(1.05);
+  transition: 2s;
 }
 #section-second .text h1{
   align-items: center;
