@@ -362,7 +362,7 @@
     grid-row: span 1;
   }
   .five{
-    margin-right: 25px;
+    margin: 0px auto 0px auto;
   }
   #section-six .f{
     flex-direction: column;
@@ -393,7 +393,7 @@
     padding: 0px;
   }
   #footer{
-    width: 400px;
+    width: 485px;
   }
 
 }
